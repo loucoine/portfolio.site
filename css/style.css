@@ -1,0 +1,42 @@
+/*
+Colors used:
+Primary - Rose - rgba (244 , 124 , 196 , 1.0)
+Secondary - Charcol - rgba (106 , 89 , 89 , 1.0)
+Accent - Lime - rgba (153 , 219 , 87 , 1.0)
+Background - Dust - (214 , 211 , 211 , 1.0)
+*/
+
+
+body{
+  background-color:rgba(214,211,211,1.0)
+font-family:'Ubuntu',sans-sherif;
+font-size: 16px;
+font-weight: 300;
+line-height: 1.6;
+color: rbga(0,0,0,1.0);
+
+}
+
+h1,h2,h3{
+  line-height: 1.4;
+}
+
+h1{
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2{
+  font-size: 2.25;
+  font-weight: 700;
+}
+
+h3{
+  font-size: 1.75;
+  font-weight: 400;
+}
+
+
+img{
+  width: 100%;
+}
