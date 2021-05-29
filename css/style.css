@@ -7,93 +7,96 @@ Background - Dust - rgba(214,211,211,1.0)
 Black - rgba(0,0,0,1.0)
 White - rgb(255,255,255,1.0)
 */
-
-
-body{
-  background-color:rgba(214,211,211,1.0)
-font-family:'Ubuntu',sans-sherif;
-font-size: 16px;
-font-weight: 300;
-line-height: 1.6;
-color: rbga(0,0,0,1.0);
-
+body {
+  background-color: rgba(214, 211, 211, 1.0);
+  font-family:'Ubuntu', sans-sherif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: rbga(0, 0, 0, 1.0);
 }
 
-h1,h2,h3{
+h1, h2, h3 {
   line-height: 1.4;
 }
 
-h1{
+h1 {
   font-size: 2.75em;
   font-weight: 700;
 }
 
-h2{
-  font-size: 2.25;
+h2 {
+  font-size: 2.25em;
   font-weight: 700;
 }
 
-h3{
-  font-size: 1.75;
+h3 {
+  font-size: 1.75em;
   font-weight: 400;
 }
 
-
-img{
+img {
   width: 100%;
 }
 
-
 /* This section is to style the hyperlinks */
+a {
+  color: rgba(153, 219, 87, 1.0);
+  text-decoration: none;
+  /* no underline */
+}
 
-a{
-  color: rgba(153,219,87,1.0);
-  text-decoration:none; /* no underline */
-}
 a:hover,
-a:focus{
-  color: rgba(153,219,87,0.6);
-  text-decoration: underline; /* underline while hovering */
+a:focus {
+  color: rgba(153, 219, 87, 0.6);
+  text-decoration: underline;
+  /* underline while hovering */
 }
-a:visited{
-  color: rgba(244,124,196,0.6);
+
+a:visited {
+  color: rgba(244, 124, 196, 0.6);
 }
-a:active{
-  color: rgba(244,124,196,1.0);
+
+a:active {
+  color: rgba(244, 124, 196, 1.0);
 }
 
 /* styling the read more button */
-.button{
+.button {
   display: inline-block;
-  background-color: rgba(153,219,87,0.6);
-  color: rgba(106,89,89,0.6);
+  background-color: rgba(153, 219, 87, 0.6);
+  color: rgba(106, 89, 89, 0.6);
   font-weight: 400;
   padding: 10px;
   border-radius: 3px;
-  border-bottom: 2px solid rgba(106,89,89,1.0);
+  border-bottom: 2px solid rgba(106, 89, 89, 1.0);
   transition: 0.2s opacity;
-  }
-.button:hover{
-  opacity:1.0;
+}
+
+.button:hover {
+  opacity: 1.0;
   text-decoration: underline;
 }
-.button:active{
-  background-color: rgba(153,219,87,1.0);
-  color: rgba(106,89,89,1.0);
+
+.button:active {
+  background-color: rgba(153, 219, 87, 1.0);
+  color: rgba(106, 89, 89, 1.0);
 }
 
 /* styling email me button */
-.button.contact{
+.button.contact {
   background-color: transparent;
-  color: rgba(106,89,89,0.6);
+  color: rgba(106, 89, 89, 0.6);
   text-transform: uppercase;
-  border: 2px solid rgba(153,219,87,1.0);
+  border: 2px solid rgba(153, 219, 87, 1.0);
 }
-.button.contact:hover{
-  color: rgba(106,89,89,1.0);
+
+.button.contact:hover {
+  color: rgba(106, 89, 89, 1.0);
   text-decoration: underline;
 }
-.button.contact:active{
-  background-color: rgba(153,219,87,1.0);
-  color: rgba(106,89,89,1.0);
+
+.button.contact:active {
+  background-color: rgba(153, 219, 87, 1.0);
+  color: rgba(106, 89, 89, 1.0);
 }
