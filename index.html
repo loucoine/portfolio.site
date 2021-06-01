@@ -27,10 +27,11 @@
 <body>
 
   <header>
-    <div>
-      <img src="img/logo-louise.chicoine.svg" alt="Louise Chicoine">
+    <div class="container">
+      <img class="logo"
+      src="img/logo-louise.chicoine.svg" alt="Louise Chicoine">
       <nav>
-        <ul>
+        <ul class="navigation">
           <li><a href="index.html">Work</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
@@ -40,8 +41,8 @@
   </header>
 
   <main>
-    <div>
-      <div>
+    <div id="hero">
+      <div class="container">
         <h1>Hi, my name is Louise Chicoine.
           <span>I'm a UI designer based in Los Angeles.</span>
         </h1>
@@ -52,8 +53,9 @@
 
 
 
-    <div>
-      <div>
+    <div id="work">
+      <div class="container">
+          <div class="row">
         <!-- open row that holds (2) columns for project -->
         <div>
           <!-- open first column (used for image) -->
@@ -77,11 +79,13 @@
         </div><!-- end the second column -->
       </div><!-- end row that holds (2) columns for project -->
     </div>
+    </div>
 
 
 
     <div>
-      <div>
+      <div class="container">
+        <div class="row">
         <!-- open row that holds (2) columns for project -->
         <div>
           <!-- open first column (used for image) -->
@@ -105,10 +109,11 @@
         </div><!-- end the second column -->
       </div><!-- end row that holds (2) columns for project -->
     </div>
+  </div>
   </main>
 
   <footer id="contact">
-    <div>
+    <div class="container">
       <h2>Get in Touch</h2>
       <p>Need help with an interface or interaction design, branding or usability guidance? Get in touch and let me help. Call:<a href="tel:4136950495"> 4136950495</a> or email.
       </p>
