@@ -105,17 +105,17 @@ a:active {
 /* styling the read more button */
 .button {
   display: inline-block;
-  background-color: rgba(153, 219, 87, 0.6);
-  color: rgba(106, 89, 89, 0.6);
-  font-weight: 400;
+  background-color: rgba(153, 219, 87, 1.0);
+  color: rgba(106, 89, 89, 1.0);
+  font-weight: 700;
   padding: 10px;
   border-radius: 3px;
   border-bottom: 2px solid rgba(106, 89, 89, 1.0);
-  transition: 0.2s opacity;
+  transition-duration: 0.2s opacity;
 }
 
 .button:hover {
-  opacity: 1.0;
+  opacity: 0.8;
   text-decoration: underline;
 }
 
@@ -147,7 +147,10 @@ a:active {
 .container{
   padding: 0 15px;
   display: block;
-}
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  }
 
 .row{
   margin: 25px 0;
@@ -214,13 +217,21 @@ body{
 .col-md-6{
   width: 50%;
 }
+#about-page h3{
+  margin-top: 0;
+}
     }
 
     /* ===================================
       Large devices (1024px and up)
       ===================================*/
       @media only screen and (min-width: 1024px) {
-
+.col-lg-7{
+  width: 58.33%;
+}
+.col-lg-5{
+  width:41.66%;
+}
         }
 
         /* ===================================
@@ -232,4 +243,21 @@ body{
 
 [class*="col-"]{
   float: left;
+  padding: 10px;
+}
+
+.row::after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@keyframes color-change{
+  0% {fill: #edc655;}
+  50% {fill: #fcffad;}
+  100% {fill: #f76414;}
+}
+
+.sun{
+  animation: 4s color-change infinite alternate linear;
 }
