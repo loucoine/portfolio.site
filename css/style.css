@@ -105,8 +105,8 @@ a:active {
 /* styling the read more button */
 .button {
   display: inline-block;
-  background-color: rgba(153, 219, 87, 1.0);
-  color: rgba(106, 89, 89, 1.0);
+  background-color: rgb(255,255,255,0.8);
+  color: rgba(0,0,0,1.0);
   font-weight: 700;
   padding: 10px;
   border-radius: 3px;
@@ -115,7 +115,7 @@ a:active {
 }
 
 .button:hover {
-  opacity: 0.8;
+  background-color: rgba(153,219,87,0.8);
   text-decoration: underline;
 }
 
@@ -283,7 +283,7 @@ body{
 
 
 @keyframes cloud-move-reverse{
-  from {transform: translate(446, 48px);}
+  from {transform: translate(446px, 48px);}
   to {transform: translate(100px, 48px);}
 }
 
