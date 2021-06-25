@@ -3,7 +3,7 @@ Colors used:
 Primary - Rose - rgba(244,124,196,1.0)
 Secondary - Charcol - rgba(106,89,89,1.0)
 Accent - Lime - rgba(153,219,87,1.0)
-Background - Dust - rgba(214,211,211,1.0)
+Background -Sand - rgba(258,198,141,1.0)                       [Previously Dust - rgba(214,211,211,1.0)]
 Black - rgba(0,0,0,1.0)
 White - rgb(255,255,255,1.0)
 */
@@ -13,7 +13,7 @@ White - rgb(255,255,255,1.0)
 }
 
 header{
-  background-color: rgba(214,211,211,1.0);
+  background-color: rgba(258,198,141,1.0);
   padding: 10px 0 4px;
   position: fixed;
   width: 100%;
@@ -40,14 +40,14 @@ nav > ul > li > a{
 }
 
 #hero{
-  background-color: rgba(214,211,211,1.0);
+  background-color: rgba(258,198,141,1.0);
   padding: 20px 0;
   display: inline-block;
   width: 100%
 }
 
 body{
-  background-color: rgba(214,211,211,1.0);
+  background-color: rgba(258,198,141,1.0);
 font-family:'Ubuntu', sans-sherif;
 font-size: 16px;
 font-weight: 300;
@@ -172,7 +172,7 @@ a:active {
 /* footer styling */
 
 #contact .container{
-  background-color: rgba(214,211,211,1.0);
+  background-color: rgba(258,198,141,1.0);
   font-size: 1.7em;
   font-weight: 400;
   line-height: 1.6;
@@ -305,35 +305,35 @@ nav > ul {
 
 
 @keyframes color-change{
-  0% {fill: #edc655;}
-  50% {fill: #fcffad;}
-  100% {fill: #f76414;}
+  0% {fill: #ff9add;}
+  50% {fill: #ae5fb2;}
+  100% {fill: #a95f79;}
 }
 
-.sun{
-  animation: 4s color-change infinite alternate linear
+.shaddow{
+  animation: 4s color-change infinite alternate linear;
 }
 
 
 
 
 
-@keyframes cloud-move{
+@keyframes innitials-move{
   from {transform: translate(0, 50px);}
   to {transform: translate(200px, 50px);}
 }
 
 
-.cloud-front{
-  animation: 30s cloud-move infinite alternate linear;
+.innitials{
+  animation: 30s innitials-move infinite alternate linear;
 }
 
 
-@keyframes cloud-move-reverse{
+@keyframes sun-move-reverse{
   from {transform: translate(446px, 48px);}
   to {transform: translate(100px, 48px);}
 }
 
-.cloud-back{
-  animation: 34s cloud-move-reverse infinite alternate linear
+.sun{
+  animation: 34s sun-move-reverse infinite alternate linear
 }
