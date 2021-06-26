@@ -305,13 +305,13 @@ nav > ul {
 
 
 @keyframes color-change{
-  0% {fill: #ff9add;}
-  50% {fill: #ae5fb2;}
-  100% {fill: #a95f79;}
+  0% {fill: #eda2c0;}
+  50% {fill: #bf9aca;}
+  100% {fill: #8E4162;}
 }
 
-.shaddow{
-  animation: 4s color-change infinite alternate linear;
+#shaddow{
+  animation: 8s color-change infinite alternate linear;
 }
 
 
@@ -319,21 +319,21 @@ nav > ul {
 
 
 @keyframes innitials-move{
-  from {transform: translate(0, 50px);}
-  to {transform: translate(200px, 50px);}
+  from {transform: translate(0, -50px);}
+  to {transform: translate(-200px, -50px);}
 }
 
 
-.innitials{
-  animation: 30s innitials-move infinite alternate linear;
+#innitials{
+  animation: 20s innitials-move infinite alternate linear;
 }
 
 
 @keyframes sun-move-reverse{
-  from {transform: translate(446px, 48px);}
-  to {transform: translate(100px, 48px);}
+  from {transform: translate(-446px, -48px);}
+  to {transform: translate(-100px, -48px);}
 }
 
-.sun{
-  animation: 34s sun-move-reverse infinite alternate linear
+#sun{
+  animation: 24s sun-move-reverse infinite alternate linear
 }
