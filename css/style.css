@@ -41,7 +41,7 @@ nav > ul > li > a{
 }
 
 #hero{
-  background-color: rgba(258,198,141,1.0);
+  background-color: rgba(258,198,141,0.8);
   padding: 20px 0;
   display: inline-block;
   width: 100%;
