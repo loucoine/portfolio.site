@@ -2,7 +2,7 @@
 Colors used:
 Primary - Rose - rgba(244,124,196,1.0)
 Secondary - Charcol - rgba(106,89,89,1.0)
-Accent - Lime - rgba(153,219,87,1.0)
+Accent - Lime - rgba(153,219,87,1.0)   Dark - rgba(119,173,64.1.0)
 Background -Sand - rgba(258,198,141,1.0)                       [Previously Dust - rgba(214,211,211,1.0)]
 Black - rgba(0,0,0,1.0)
 White - rgb(255,255,255,1.0)
@@ -48,7 +48,7 @@ nav > ul > li > a{
 }
 
 body{
-  background-color: rgba(258,198,141,1.0);
+  background-color: rgba(258,198,141,0.8);
 font-family:'Ubuntu', sans-sherif;
 font-size: 16px;
 font-weight: 300;
@@ -87,7 +87,7 @@ a {
 
 a:hover,
 a:focus {
-  color: rgba(153, 219, 87, 0.6);
+  color: rgba(119,173,64.1.0);
   text-decoration: underline;
   /* underline while hovering */
 }
@@ -113,7 +113,7 @@ a:active {
 }
 
 .button:hover {
-  background-color: rgba(153,219,87,0.8);
+  background-color: rgba(119,173,64.1.0);
   text-decoration: underline;
 }
 
@@ -239,12 +239,14 @@ a:active {
 header{
   text-align: unset;
   padding: 20px 0 13px;
+  border: none;
 }
 
 nav{
   width: auto;
   float: right;
   margin-top: 4px;
+  border: none;
 }
 
 body{
