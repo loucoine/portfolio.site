@@ -7,13 +7,12 @@ Background -Sand - rgba(258,198,141,1.0)                       [Previously Dust 
 Black - rgba(0,0,0,1.0)
 White - rgb(255,255,255,1.0)
 */
-
-*{
+* {
   box-sizing: border-box;
 }
 
-header{
-  background-color: rgba(258,198,141,1.0);
+header {
+  background-color: rgba(258, 198, 141, 1.0);
   padding: 10px 0 4px;
   position: fixed;
   width: 100%;
@@ -21,38 +20,37 @@ header{
   box-shadow: 2px 2px 4px 0px rgba(50, 50, 50, 0.75);
 }
 
-main{
+main {
   padding-top: 120px;
 }
 
-nav > ul{
+nav>ul {
   list-style-type: none;
   padding: 0;
   display: inline-block;
   margin: 0;
 }
 
-
-nav > ul > li > a{
+nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 700;
-  color: rgba(0,0,0,1.0);
+  color: rgba(0, 0, 0, 1.0);
 }
 
-#hero{
-  background-color: rgba(258,198,141,0.8);
+#hero {
+  background-color: rgba(258, 198, 141, 0.8);
   padding: 20px 0;
   display: inline-block;
   width: 100%;
 }
 
-body{
-  background-color: rgba(258,198,141,0.8);
-font-family:'Ubuntu', sans-sherif;
-font-size: 16px;
-font-weight: 300;
-line-height: 1.6;
+body {
+  background-color: rgba(258, 198, 141, 0.8);
+  font-family: 'Asul', sans-sherif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
 h1, h2, h3 {
@@ -80,14 +78,14 @@ img {
 
 /* This section is to style the hyperlinks */
 a {
-  color: rgba(244,124,196,1.0);
+  color: rgba(244, 124, 196, 1.0);
   text-decoration: none;
   /* no underline */
 }
 
 a:hover,
 a:focus {
-  color: rgba(119,173,64.1.0);
+  color: rgba(119, 173, 64.1.0);
   text-decoration: underline;
   /* underline while hovering */
 }
@@ -103,8 +101,8 @@ a:active {
 /* styling the read more button */
 .button {
   display: inline-block;
-  background-color: rgb(255,255,255,0.8);
-  color: rgba(0,0,0,1.0);
+  background-color: rgb(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 1.0);
   font-weight: 700;
   padding: 10px;
   border-radius: 3px;
@@ -113,7 +111,7 @@ a:active {
 }
 
 .button:hover {
-  background-color: rgba(119,173,64.1.0);
+  background-color: rgba(119, 173, 64.1.0);
   text-decoration: underline;
 }
 
@@ -143,64 +141,62 @@ a:active {
 .resume {
   text-transform: uppercase;
   font-weight: 700;
-  color: rgba(0,0,0,1.0);
+  color: rgba(0, 0, 0, 1.0);
 }
 
 /* Layout Styling */
-
-.container{
+.container {
   padding: 0 15px;
   display: block;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  }
+}
 
-.row{
+.row {
   margin: 25px 0;
 }
 
-#work .row{
+#work .row {
   padding-bottom: 25px;
-  border-bottom: 4px solid rgba(0,0,0,1.0);
+  border-bottom: 4px solid rgba(0, 0, 0, 1.0);
 }
 
 #hero {
   text-align: center;
 }
-#hero span{
+
+#hero span {
   display: block;
 }
 
-.logo{
+.logo {
   max-width: 250px;
   max-height: 80px;
 }
 
 /* footer styling */
-
-#contact .container{
-  background-color: rgba(258,198,141,1.0);
+#contact .container {
+  background-color: rgba(258, 198, 141, 1.0);
   font-size: 1.7em;
   font-weight: 400;
   line-height: 1.6;
   text-align: center;
 }
 
-#contact ul{
+#contact ul {
   list-style-type: none;
   padding: 0;
   display: inline-block;
 }
 
-#contact ul li{
+#contact ul li {
   display: inline-block;
 }
 
-#contact ul li a svg{
+#contact ul li a svg {
   max-width: 50px;
 }
-
 
 .navtoggle li:not(:last-child) {
   display: none;
@@ -218,132 +214,137 @@ a:active {
   padding-right: 0;
 }
 
-
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
 }
 
-.navtoggle.responsive li:last-child  {
+.navtoggle.responsive li:last-child {
   padding: 0 0 10px;
 }
 
 /* ===================================
   Medium devices (640px and up)
   ===================================*/
-  @media only screen and (min-width: 641px) {
-header{
-  text-align: unset;
-  padding: 20px 0 13px;
-  border: none;
+@media only screen and (min-width: 641px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+    border: none;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+    border: none;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
+
+  nav>ul>li {
+    display: inline-block;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+    display: none;
+  }
+
+  nav>ul {
+    margin: 1em 0;
+  }
 }
 
-nav{
-  width: auto;
-  float: right;
-  margin-top: 4px;
-  border: none;
-}
-
-body{
-  font-size: 18px;
-}
-
-.col-md-6{
-  width: 50%;
-}
-
-#about-page h3{
-  margin-top: 0;
-}
-
-nav > ul > li{
-  display:inline-block;
-}
-
-.navtoggle li:not(:last-child) {
-  display: inline-block;
-}
-
-.navtoggle li:last-child {
-  display: none;
-}
-
-nav > ul {
-  margin: 1em 0;
-}
-
-    }
-
-    /* ===================================
+/* ===================================
       Large devices (1024px and up)
       ===================================*/
-      @media only screen and (min-width: 1024px) {
-.col-lg-7{
-  width: 58.33%;
-}
-.col-lg-5{
-  width:41.66%;
-}
-        }
+@media only screen and (min-width: 1024px) {
+  .col-lg-7 {
+    width: 58.33%;
+  }
 
-        /* ===================================
+  .col-lg-5 {
+    width: 41.66%;
+  }
+}
+
+/* ===================================
           Extra Large devices (1440px and up)
           ===================================*/
-          @media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {}
 
-            }
-
-[class*="col-"]{
+[class*="col-"] {
   float: left;
   padding: 10px;
 }
 
-.row::after{
+.row::after {
   content: "";
   clear: both;
   display: table;
 }
 
+@keyframes color-change {
+  0% {
+    fill: #eda2c0;
+  }
 
+  50% {
+    fill: #bf9aca;
+  }
 
-
-
-
-@keyframes color-change{
-  0% {fill: #eda2c0;}
-  50% {fill: #bf9aca;}
-  100% {fill: #8E4162;}
+  100% {
+    fill: #8E4162;
+  }
 }
 
-#shaddow{
+#shaddow {
   animation: 8s color-change infinite alternate linear;
 }
 
+@keyframes innitials-move {
+  from {
+    transform: translate(0, -50px);
+  }
 
-
-
-
-@keyframes innitials-move{
-  from {transform: translate(0, -50px);}
-  to {transform: translate(-200px, -50px);}
+  to {
+    transform: translate(-200px, -50px);
+  }
 }
 
-
-#innitials{
+#innitials {
   animation: 20s innitials-move infinite alternate linear;
 }
 
+@keyframes sun-move-reverse {
+  from {
+    transform: translate(-446px, -48px);
+  }
 
-@keyframes sun-move-reverse{
-  from {transform: translate(-446px, -48px);}
-  to {transform: translate(-100px, -48px);}
+  to {
+    transform: translate(-100px, -48px);
+  }
 }
 
-#sun{
+#sun {
   animation: 24s sun-move-reverse infinite alternate linear
 }
