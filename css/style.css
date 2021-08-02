@@ -228,6 +228,68 @@ a:active {
   padding: 0 0 10px;
 }
 
+
+/* contact page styling */
+
+#contact-direct .container{
+  padding-top: 300px
+  background-color: rgba(258, 198, 141, 1.0);
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: center;
+}
+
+
+#contact-direct ul {
+  list-style-type: none;
+  padding: 0px;
+  display: inline-block;
+  margin: 0;
+}
+
+
+#contact-dirct ul li {
+  display: inline-block;
+}
+
+#contact-direct ul li a svg {
+  display: inline-block;
+  max-width: 50px;
+  padding: 15px;
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+}
+
+.navtoggle.responsive nav {
+  padding: 24px 0 0;
+}
+
+.navtoggle.responsive li {
+  display: block;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 127, 80, 0.5);
+}
+
+.navtoggle.responsive li:last-child {
+  padding: 0 0 10px;
+}
+
+
 /* ===================================
   Medium devices (640px and up)
   ===================================*/
