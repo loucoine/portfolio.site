@@ -28,15 +28,18 @@
   <header>
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
-      <img class="logo" src="img/icon.svgs/cropped-picture.logo-louise.chicoine.svg" alt="Louise Chicoine">
-      <nav>
-        <ul>
-          <li><a href="index.html">Work</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html" onclick="menuToggle()">Contact</a></li>
-          <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-        </ul>
-      </nav>
+        <a href="index.html"><img class="logo" src="img/icon.svgs/cropped-picture.logo-louise.chicoine.svg" alt="Louise Chicoine">
+        </a>
+        <nav>
+          <ul class="navigation">
+            <li><a href="index.html">Work</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" onclick="menuToggle ()">Contact</a></li>
+            <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars">
+                </i></a></li>
+          </ul>
+        </nav>
+      </div>
     </div>
   </header>
 
@@ -57,16 +60,16 @@
       <div>
         <!-- overview -->
         <h2>Purpose</h2>
-        <p> The objective of this project was to create a native mobile app that solved a specific problem. My personal experience as a musician in the DIY community guided my decision to create an artist - friendly music listening app. The most
-          popular players left room for improvement but my main focus would be on basic functions and familiarity.
+        <p> The objective of this project was to create a native mobile app that solved a specific problem. My personal experience as a musician in the DIY community guided my decision to create an artist-friendly music listening app. The most
+          popular players left room for improvement, but my main focus would be on basic functions and familiarity.
         </p>
       </div><!-- end overview -->
 
       <div>
         <!-- project proposal guidelines -->
         <h2>Proposal</h2>
-        <p>In my proposal for this project I provide an analysis of my competitors and then explain that I aim to provide the best of both worlds with a music streaming app that is artist friendly. I explain who I am designing for and what they will
-          be accomplishing with this app. Then I provide both a user flow diagram and low fidelity wireframes to visually map this activity.
+        <p>In my proposal for this project I provide an analysis of my competitors and then explain that I aim to provide the best of both worlds with a music streaming app that is artist-friendly. I explain who I am designing for and what they will
+          be accomplishing with this app. Then I provide both a user-flow diagram and low fidelity wireframes to visually map this activity.
         </p>
         <picture>
           <source srcset="img/roaddog/proposal.1x.png" media="(max-width:767px)">
@@ -90,7 +93,7 @@
       <div>
         <!-- patterns -->
         <h2>Patterns Defined</h2>
-        <p>To ensure I was designing for my user first - for familiarity and usability, I defined common mobile patterns and applied them to my designs.
+        <p>For familiarity and usability, I defined common mobile patterns and applied them to my designs.
         </p>
         <picture>
           <source srcset="img/roaddog/patterns.1x.png" media="(max-width:767px)">
@@ -103,7 +106,7 @@
         <!-- competitive landscape -->
         <h2>Competitve Landscape</h2>
         <p>Learning from others also ensures that I will be able to design something that puts the user at ease with familiarity. Here I am pointing out features from Youtube Music, Bandcamp, and Spotify and how I incorporate the most successful
-          points nto my own work.
+          points into my own work.
         </p>
         <picture>
           <source srcset="img/roaddog/bandcamp.1x.png" media="(max-width:767px)">
@@ -185,7 +188,7 @@
       <div>
         <!-- final designs -->
         <h2>Final Designs</h2>
-        <p>I used my personal knowledge and paid careful attention to the market landscape to design this native app. For me RoadDog was a great test in how well I can apply my new skills in a way that will be expected by most users.
+        <p>I used my personal knowledge and paid careful attention to the market landscape to design this native app. For me RoadDog was a great test in how well I can apply my new skills in a way that satisfies user’s expectations.
         </p>
         <picture>
           <source srcset="img/roaddog/final.design-onboarding.1x.png" media="(max-width:767px)">
@@ -204,10 +207,10 @@
       <div>
         <!-- Takeaway -->
         <h2>Takeaway</h2>
-        <p> Preparing this proposal and completing these designs challenged me to tie together different parts of my life and personality and all the skills I had learned up to this point. This project marked my first time designing in Figma and
-          helped further my skills with InVision. Before this project, I wasn't very familiar with mobile music players since I own many physical recordings. After choosing to tackle this project, I quickly defined the expected. It was an adventure,
-          embracing a popular type of app from a different perspective and discovering a way to combine my aesthetic with usability. If I were to spend more time on this project, I would want to introduce a marketplace similar to Bandcamp, where the
-          artist could sell their recordings and listeners could collect a library.
+        <p>Preparing this proposal and completing these designs challenged me to tie together different parts of my life and personality, as well as all the skills I had learned up to this point. This project marked my first time designing in Figma
+          and helped further my skills with InVision. Before this project, I wasn't very familiar with mobile music players, since I own many physical recordings. After choosing to tackle this project, I quickly defined the user expectations. It was
+          an adventure, embracing a popular type of app from a different perspective and discovering a way to combine my aesthetic with usability. If I were to spend more time on this project, I would want to introduce a marketplace similar to
+          Bandcamp, where the artist could sell their recordings and listeners could collect a library.
         </p>
         <picture>
           <source srcset="img/roaddog/mockup.1x.png" media="(max-width:767px)">
@@ -221,9 +224,12 @@
 
   <footer id="contact">
     <div class="container">
-      <h2>Get in Touch</h2>
-      <p>Need help with an interface or interaction design, branding or usability guidance? Get in touch and let me help. Call:<a href="tel:4136950495"> 4136950495</a> or email.
+      <h1>Get in Touch</h1>
+      <p>Need help designing user interactions for your brand? I'd love to hear from you!
       </p>
+      <div id="contact-link">
+        <a href="tel:4136950495"> 4136950495</a>
+      </div>
       <div>
         <a href="mailto:loucoine@gmail.com" class="button contact">Email me</a>
       </div>
@@ -231,33 +237,35 @@
         <!-- Social Media Layout and Placeholders -->
         <ul>
 
-          <li><a href="Behance" target="_blank">
-            <i class="fab fa-behance"></i>
+          <li><a href="https://www.behance.net/Louise-J-Chicoine" target="_blank">
+              <i class="fab fa-behance"></i>
             </a></li>
 
 
 
-          <li><a href="LINKEDIN-URL" target="_blank">
-            <i class="fab fa-linkedin-in"></i>
+          <li><a href="https://www.linkedin.com/in/louise-chicoine-98b20739/" target="_blank">
+              <i class="fab fa-linkedin-in"></i>
             </a></li>
 
-
-          <li><a href="TWITTER-URL" target="_blank">
-        <i class="fab fa-twitter"></i>
-          </a></li>
 
 
 
 
         </ul>
       </div>
-      <p>Copyright Louise Chicoine 2021</p>
+      <div id="page-bottom">
+        <a href="index.html" class="button contact">From the Top</a>
+      </div>
+      <div>
+        <p>Copyright, Louise Chicoine 2021</p>
+      </div>
     </div>
+
   </footer>
 
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
-</script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+  </script>
 
   <script src="js/scripts.js">
   </script>

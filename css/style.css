@@ -33,13 +33,17 @@ nav>ul {
 
 nav>ul>li>a {
   padding: 0 15px;
-  text-transform: uppercase;
+
   font-weight: 700;
   color: rgba(0, 0, 0, 1.0);
 }
 
+#project-page-header {
+  position: absolute;
+}
+
 #hero {
-  background-color: rgba(258, 198, 141, 0.8);
+  background-color: rgba(258, 198, 141, 0.0);
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -138,11 +142,7 @@ a:active {
   color: rgba(106, 89, 89, 1.0);
 }
 
-.resume {
-  text-transform: uppercase;
-  font-weight: 700;
-  color: rgba(0, 0, 0, 1.0);
-}
+
 
 /* Layout Styling */
 .container {
@@ -177,21 +177,30 @@ a:active {
 
 /* footer styling */
 #contact .container {
-  background-color: rgba(258, 198, 141, 1.0);
-  font-size: 1.7em;
+  background-color: rgba(258, 198, 141, 0.0);
+  font-size: 1.2em;
   font-weight: 400;
   line-height: 1.6;
   text-align: center;
 }
 
+
+#contact-link {
+  padding: 20px;
+}
+
+
 #contact ul {
   list-style-type: none;
-  padding: 0;
   display: inline-block;
+  margin: auto;
+  padding-inline-start: 0px;
 }
 
 #contact ul li {
   display: inline-block;
+  padding: 10px;
+  margin: auto;
 }
 
 #contact ul li a svg {
@@ -231,9 +240,9 @@ a:active {
 
 /* contact page styling */
 
-#contact-direct .container{
-  padding-top: 300px
-  background-color: rgba(258, 198, 141, 1.0);
+#contact-page .container{
+  padding-top: 10px;
+  background-color: rgba(258, 198, 141, 0.0);
   font-size: 1.7em;
   font-weight: 400;
   line-height: 1.6;
@@ -241,22 +250,25 @@ a:active {
 }
 
 
-#contact-direct ul {
+#contact-page ul {
   list-style-type: none;
-  padding: 0px;
-  display: inline-block;
-  margin: 0;
-}
-
-
-#contact-dirct ul li {
   display: inline-block;
 }
 
-#contact-direct ul li a svg {
+
+#contact-page ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+#contact-page ul li a svg {
   display: inline-block;
   max-width: 50px;
   padding: 15px;
+}
+
+#page-bottom {
+  padding-top: 160px;
 }
 
 .navtoggle li:not(:last-child) {

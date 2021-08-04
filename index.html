@@ -1,4 +1,5 @@
-<!DOCTYPE html><html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
 <head>
 
@@ -30,7 +31,8 @@
   <header>
     <div class="container">
       <div class="navtoggle" id="myNavtoggle">
-        <img class="logo" src="img/icon.svgs/cropped-picture.logo-louise.chicoine.svg" alt="Louise Chicoine">
+        <a href="index.html"><img class="logo" src="img/icon.svgs/cropped-picture.logo-louise.chicoine.svg" alt="Louise Chicoine">
+        </a>
         <nav>
           <ul class="navigation">
             <li><a href="index.html">Work</a></li>
@@ -61,6 +63,33 @@
       <div class="container">
         <div class="row">
 
+
+          <div class="row">
+            <!-- open row that holds (2) columns for project -->
+            <div class="col-md-6 col-lg-7">
+              <!-- open first column (used for image) -->
+              <picture>
+                <source srcset="img/roaddog/roaddog-cover1x.png" media="(max-width:767px)">
+                <img src="img/roaddog/roaddog-cover2x.png" alt="My Image">
+              </picture>
+            </div><!-- end first column -->
+
+            <div class="col-md-6 col-lg-5">
+              <!-- open second column (used for text) -->
+              <h2>RoadDog</h2><!-- heading for the project -->
+              <p>
+                <!-- open paragraph -->
+                An artist friendly music streaming app.
+              </p> <!-- end paragraph -->
+              <p>
+                <!-- open paragraph -->
+                This is a native app that I designed with Figma and InVision.
+              </p> <!-- end paragraph -->
+              <a href="roaddog.html" class="button">Read more</a><!-- button or link label -->
+            </div><!-- end the second column -->
+          </div><!-- end row that holds (2) columns for project -->
+
+
           <!-- open row that holds (2) columns for project -->
           <div class="col-md-6 col-lg-7">
             <!-- open first column (used for image) -->
@@ -86,31 +115,6 @@
 
         </div><!-- end row that holds (2) columns for project -->
 
-
-        <div class="row">
-          <!-- open row that holds (2) columns for project -->
-          <div class="col-md-6 col-lg-7">
-            <!-- open first column (used for image) -->
-            <picture>
-              <source srcset="img/roaddog/roaddog-cover1x.png" media="(max-width:767px)">
-              <img src="img/roaddog/roaddog-cover2x.png" alt="My Image">
-            </picture>
-          </div><!-- end first column -->
-
-          <div class="col-md-6 col-lg-5">
-            <!-- open second column (used for text) -->
-            <h2>RoadDog</h2><!-- heading for the project -->
-            <p>
-              <!-- open paragraph -->
-              An artist friendly music streaming app.
-            </p> <!-- end paragraph -->
-            <p>
-              <!-- open paragraph -->
-              This is a native app that I designed in Figma, also with InVision.
-            </p> <!-- end paragraph -->
-            <a href="roaddog.html" class="button">Read more</a><!-- button or link label -->
-          </div><!-- end the second column -->
-        </div><!-- end row that holds (2) columns for project -->
 
 
         <div class="row">
@@ -199,9 +203,12 @@
 
   <footer id="contact">
     <div class="container">
-      <h2>Get in Touch</h2>
-      <p>Need help with an interface or interaction design, branding or usability guidance? Get in touch and let me help. Call:<a href="tel:4136950495"> 4136950495</a> or email.
+      <h1>Get in Touch</h1>
+      <p>Need help designing user interactions for your brand? I'd love to hear from you!
       </p>
+      <div id="contact-link">
+        <a href="tel:4136950495"> 4136950495</a>
+      </div>
       <div>
         <a href="mailto:loucoine@gmail.com" class="button contact">Email me</a>
       </div>
@@ -209,28 +216,30 @@
         <!-- Social Media Layout and Placeholders -->
         <ul>
 
-          <li><a href="Behance" target="_blank">
+          <li><a href="https://www.behance.net/Louise-J-Chicoine" target="_blank">
               <i class="fab fa-behance"></i>
             </a></li>
 
 
 
-          <li><a href="LINKEDIN-URL" target="_blank">
+          <li><a href="https://www.linkedin.com/in/louise-chicoine-98b20739/" target="_blank">
               <i class="fab fa-linkedin-in"></i>
             </a></li>
 
-
-          <li><a href="TWITTER-URL" target="_blank">
-              <i class="fab fa-twitter"></i>
-            </a></li>
 
 
 
 
         </ul>
       </div>
-      <p>Copyright Louise Chicoine 2021</p>
+      <div id="page-bottom">
+        <a href="index.html" class="button contact">From the Top</a>
+      </div>
+      <div>
+        <p>Copyright, Louise Chicoine 2021</p>
+      </div>
     </div>
+
   </footer>
 
 
